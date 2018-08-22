@@ -1,4 +1,6 @@
 =begin
+This algorithm from wkipedia ...
+
 function is_prime(n)
      if n ≤ 1
         return false
