@@ -1,5 +1,6 @@
 =begin
-This algorithm from wkipedia ...
+This algorithm from wikipedia ...
+https://en.wikipedia.org/wiki/Primality_test
 
 function is_prime(n)
      if n ≤ 1
