@@ -14,16 +14,21 @@ function is_prime(n)
 
 
 
-def prime?(i)
+def prime?(n)
   
-  if i <= 1
+  if n <= 1
     return false
-  elsif i <= 3
+  elsif n <= 3
     return true
-  elsif i % 2 == 0 || i % 3 = 0 
+  elsif n % 2 == 0 || n % 3 = 0 
     return false
   end
     
+  i = 5
+  while i * i <= n 
+    if n % i == 0 || n % (i + 2) == 0
+      return false
     
+  end
     
 end
