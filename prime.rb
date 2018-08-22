@@ -1,3 +1,4 @@
+=begin
 function is_prime(n)
      if n ≤ 1
         return false
@@ -11,7 +12,7 @@ function is_prime(n)
             return false
         i ← i + 6
      return true
-
+=end
 
 
 def prime?(n)
@@ -33,3 +34,15 @@ def prime?(n)
   end
   return true 
 end
+
+puts "Are the following prime numbers?"
+puts "1: #{prime?(-1)}"
+puts "1: #{prime?(0)}"
+puts "1: #{prime?(1)}"
+puts "1: #{prime?(2)}"
+puts "1: #{prime?(3)}"
+puts "1: #{prime?(4)}"
+puts "1: #{prime?(5)}"
+puts "1: #{prime?(6)}"
+puts "1: #{prime?(7)}"
+puts "1: #{prime?(8)}"
